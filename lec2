@@ -1,0 +1,51 @@
+class 정의
+<style>
+<! --
+       태그이름.클래스 이름{
+                        스타일 정의
+                }
+//-->
+</style>
+
+
+<style>
+<!--
+DIV.class1 {
+                  color:black;
+                  font-family:굴림;
+                  font-size:20pt;
+                  font-weight:normal;
+}
+//-->
+</style>
+
+
+<HTML>
+<HEAD><TITLE> CSS </TITLE>
+<STYLE>
+<!--
+	DIV.class1 {
+		color:blue;
+		font-family:굴림;
+		font-size:20pt;
+		font-weight:normal;
+	}
+	.class2 {
+		color:red;
+		font-family:궁서;
+		font-size:20pt;
+		font-weight:bold;
+	}
+//-->
+
+
+</STYLE></HEAD>
+<BODY>
+<DIV align="center" class="class1">
+CSS 예제입니다. - class1으로 지정
+</DIV>
+<P align="center" class="class2">
+CSS 예제입니다. - class2로 지정
+</P>
+</BODY></HTML>
+
