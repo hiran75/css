@@ -49,3 +49,93 @@ CSS 예제입니다. - class2로 지정
 </P>
 </BODY></HTML>
 
+--전역 클래스로 정의
+<style>
+<!—
+                 .class1{
+                            color:red;
+                            background-color:
+                            black;
+                  }
+//-->
+</style>
+
+
+<HTML>
+<HEAD>
+<TITLE> css </TITLE>
+<STYLE>
+<!--
+P {
+color:red;
+font-style:italic;
+}
+DIV {
+color:green;
+font-weight:bold;
+}
+SPAN {
+color:blue;
+font-weight:normal;
+}
+.cls {
+font-family:굴림
+font-size:30pt;
+}
+//-->
+</STYLE>
+</HEAD>
+
+
+<BODY>
+<h1>
+<P class="cls">
+예제 2 입니다.
+</P>
+<DIV class="cls">
+예제 2 입니다.
+</DIV>
+<SPAN class="cls">
+예제 2 입니다.
+</SPAN>
+</h1>
+</BODY>
+</HTML>
+
+
+<!doctype html>
+<html>
+<head><title> css3.0  </title></head>
+<style>
+input:hover
+   { background:pink }
+input:active
+   { background:yellow }
+</style>
+<body>
+<form>
+  아이디 : <input type=text><br>
+  비  번 : <input type=password>
+</form>
+</body>
+</html>
+
+
+<!doctype html>
+<html>
+<head><title> css3.0  </title></head>
+<style>
+input:focus
+   { background:yellow }
+
+</style>
+<body>
+<form>
+  아이디 : <input type=text><br>
+  비  번 : <input type=password>
+</form>
+</body>
+</html>
+
+
+
