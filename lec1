@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<TITLE> css예제 </TITLE>
+<STYLE>
+<!--
+	DIV  A {
+		font-family: 궁서;
+		font-size: 15pt;
+		font-weight: bolder;
+		background-color: lightgrey;
+	}
+//-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<DIV align="center">
+다음은 <A href="www.naver.com"> css예제 </A>입니다.
+</DIV>
+
+이번에는 <A href="www.naver.com">단순링크</A>입니다.
+
+</BODY>
+</HTML>
